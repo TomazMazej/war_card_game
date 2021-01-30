@@ -13,6 +13,7 @@
 		86B3B4982549FCFB0044B0DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86B3B4962549FCFB0044B0DE /* Main.storyboard */; };
 		86B3B49A2549FCFD0044B0DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86B3B4992549FCFD0044B0DE /* Assets.xcassets */; };
 		86B3B49D2549FCFD0044B0DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86B3B49B2549FCFD0044B0DE /* LaunchScreen.storyboard */; };
+		86FAF9BB25C582AA00FD1B23 /* warcardscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 86FAF9BA25C582AA00FD1B23 /* warcardscreen.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		86B3B4992549FCFD0044B0DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86B3B49C2549FCFD0044B0DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86B3B49E2549FCFD0044B0DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86FAF9BA25C582AA00FD1B23 /* warcardscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = warcardscreen.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		86B3B48F2549FCFB0044B0DE /* WarCardGame */ = {
 			isa = PBXGroup;
 			children = (
+				86FAF9B925C5828400FD1B23 /* Screenshots */,
 				86B3B4902549FCFB0044B0DE /* AppDelegate.swift */,
 				86B3B4922549FCFB0044B0DE /* SceneDelegate.swift */,
 				86B3B4942549FCFB0044B0DE /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				86B3B49E2549FCFD0044B0DE /* Info.plist */,
 			);
 			path = WarCardGame;
+			sourceTree = "<group>";
+		};
+		86FAF9B925C5828400FD1B23 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				86FAF9BA25C582AA00FD1B23 /* warcardscreen.png */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +135,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86FAF9BB25C582AA00FD1B23 /* warcardscreen.png in Resources */,
 				86B3B49D2549FCFD0044B0DE /* LaunchScreen.storyboard in Resources */,
 				86B3B49A2549FCFD0044B0DE /* Assets.xcassets in Resources */,
 				86B3B4982549FCFB0044B0DE /* Main.storyboard in Resources */,
